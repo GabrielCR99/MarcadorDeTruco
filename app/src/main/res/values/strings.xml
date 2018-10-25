@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Marcador de Truco</string>
+    <string name="n_s">NÓS</string>
+    <string name="eles">ELES</string>
+    <string name="we_won">Nós ganhamos!</string>
+    <string name="they_won">Eles Ganharam!</string>
+    <string name="reset">RESET</string>
+    <string name="_12">+12</string>
+    <string name="_9">+9</string>
+    <string name="_6">+6</string>
+    <string name="_3">+3</string>
+    <string name="_1">+1</string>
+    <string name="_0">0</string>
+    <string name="back_points">Voltar</string>
+    <string name="eleven_hand">Mão de onze para nós!</string>
+    <string name="eleven_hand_b">Mão de onze para eles!</string>
+</resources>

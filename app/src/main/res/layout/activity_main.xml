@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TeamNameTextView"
+                    android:text="@string/n_s" />
+
+                <TextView
+                    android:id="@+id/we_score"
+                    style="@style/TeamScoreTextView"
+                    android:text="@string/_0" />
+
+                <Button
+                    android:id="@+id/increaseByOneAButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByOneA"
+                    android:text="@string/_1" />
+
+                <Button
+                    android:id="@+id/increaseByThreeAButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByThreeA"
+                    android:text="@string/_3" />
+
+                <Button
+                    android:id="@+id/increaseBySixAButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseBySixA"
+                    android:text="@string/_6" />
+
+                <Button
+                    android:id="@+id/increaseByNineAButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByNineA"
+                    android:text="@string/_9" />
+
+                <Button
+                    android:id="@+id/increaseByTwelveAButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByTwelveA"
+                    android:text="@string/_12" />
+
+                <Button
+                    android:id="@+id/back_pA"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="backA"
+                    android:text="@string/back_points" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorLabel" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TeamNameTextView"
+                    android:text="@string/eles" />
+
+                <TextView
+                    android:id="@+id/they_score"
+                    style="@style/TeamScoreTextView"
+                    android:text="@string/_0" />
+
+                <Button
+                    android:id="@+id/increaseByOneBButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByOneB"
+                    android:text="@string/_1" />
+
+                <Button
+                    android:id="@+id/increaseByThreeBButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByThreeB"
+                    android:text="@string/_3" />
+
+                <Button
+                    android:id="@+id/increaseBySixBButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseBySixB"
+                    android:text="@string/_6" />
+
+                <Button
+                    android:id="@+id/increaseByNineBButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByNineB"
+                    android:text="@string/_9" />
+
+                <Button
+                    android:id="@+id/increaseByTwelveBButton"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseByTwelveB"
+                    android:text="@string/_12" />
+
+                <Button
+                    android:id="@+id/back_pB"
+                    style="@style/ButtonOutlineBorder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="backB"
+                    android:text="@string/back_points" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/ButtonOutlineBorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="reset"
+            android:text="@string/reset" />
+
+    </LinearLayout>
+
+</ScrollView>
